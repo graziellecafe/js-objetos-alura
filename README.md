@@ -18,7 +18,8 @@ Exemplo de array:
 const nomeUsuario = ['André', 36, 'Belo Horizonte'];
 ```
 
-Utilizar um outro tipo de estrutura para organizar melhor os dados e informações
+Utilizar um outro tipo de estrutura para organizar melhor os dados e informações.
+
 Exemplo de um objeto: 
 ```
 const cliente = {
@@ -33,19 +34,22 @@ const cliente = {
 Temos a chave 'nome' com o valor 'André', a chave 'idade' com o valor '36'.
 
 Utilizamos um objeto quando precisamos realizar uma abstração de algo do mundo real.
-Exemplo: um cliente tem nome, endereço, cpf, conta, etc. 
+
+Exemplo: Um cliente tem nome, endereço, cpf, conta, etc. 
 
 ## Como acessar um objeto: 
-Através da notação de '.'
+Através da notação de '.' ou pela notação de [].
 
-## 
-Template strings: Interpolação de strings com variáveis
+## Template strings: 
+**Definição**: São strings que permitem expressões embutidas. Interpolação de strings com variáveis.
+
 ``` 
 console.log(`Texto ${<nome_da_variavel>}`);
 ```
 
 ## Consultar um objeto
-* Utilizando chaves 
+Utilizando chaves 
+
 ```
 const cliente = { 
     nome: 'André'; 
@@ -57,7 +61,7 @@ const cliente = {
 console.log(cliente['nome']);
 ```
 
-OU 
+ou
 
 ```
 const cliente = {
@@ -71,11 +75,12 @@ const chaves = ['nome', 'idade', 'cpf', 'email'];
 console.log(cliente[chaves[0]]);
 ```
 
-Acessando todas as chaves do objeto através do método forEach
+Acessando todas as chaves do objeto através do método forEach:
 ```
 chaves.forEach(info => { 
     console.log(cliente[info]);
 })
+```
 
 ## Deletando propriedade / classe do objeto 
 delete <objeto.classe>
