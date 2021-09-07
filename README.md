@@ -105,3 +105,24 @@ console.log(personagem);
 delete personagem.aliado;
 console.log(personagem);
 ```
+
+## Percorrendo um array dentro de um objeto
+Exemplo: 
+```
+cliente.telefones.forEach(numero => {
+    console.log(numero);
+})
+```
+
+## Adicionando um objeto dentro de outro objeto 
+```
+const <nome_do_objeto>{
+    chave: 'valor', 
+    chave: 'valor',
+}
+
+<nome_do_objeto>.classeAdicionar = {
+    chave: 'valor', 
+    chave: 'valor', 
+}
+```
