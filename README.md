@@ -129,3 +129,18 @@ const <nome_do_objeto>{
 
 ## Funções
 Utilizamos funções para dar comportamento ao objeto. Métodos são funções ligadas a um objeto. 
+
+# Métodos de Objeto
+Object.keys: returns the name of the enumerable string properties and methods of an object.
+
+Exemplo: 
+```
+function oferecerSeguro(obj) {
+    const propsCliente = Object.keys(obj);
+    if(propsCliente.includes('dependentes')){
+        console.log(`Oferta de seguro de vida disponível para o(a) cliente ${obj.nome}.`);
+    }
+}
+
+oferecerSeguro(cliente);
+```
