@@ -126,3 +126,6 @@ const <nome_do_objeto>{
     chave: 'valor', 
 }
 ```
+
+## Funções
+Utilizamos funções para dar comportamento ao objeto. Métodos são funções ligadas a um objeto. 
